@@ -8,11 +8,12 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
     emailjs.sendForm('service_5trxnxh', 'template_v0gvpll', e.target, 'XyHOUIZQ-cgoRnpZX')
       .then((response) => {
-          console.log('SUCCESS!', response.status, response.text);
-          window.location.reload()   
+          console.log('SUCCESS!', response.status, response.text);   
+          e.target[0].value = "";
+          e.target[1].value = "";
+          e.target[2].value = "";
       }, (error) => {
           console.log(error.text);
       });
