@@ -2,7 +2,7 @@ import { EducationContainer, PageContainer, SkillsContainer, ButtonContainer } f
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Resume from '../../assets/Career-fair-resume-2022.pdf'
+import Resume from '../../assets/Current-Resume.pdf'
 
 
 const About = () => {
@@ -72,7 +72,7 @@ const About = () => {
           </Col>
         </Row>
         <br/>
-        <p>Hoping to branch out into app development and machine learning</p>
+        <p>Hoping to branch out into cybersecurity and machine learning</p>
         <ButtonContainer>
           <Button className="resume-button" variant="primary" href={Resume} target="_blank" rel="noreferrer">View Resume</Button>
         </ButtonContainer>

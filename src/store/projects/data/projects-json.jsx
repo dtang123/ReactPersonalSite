@@ -42,7 +42,7 @@ export const projectData = [
         "frameworks": ["Java Swing", "Jackson JSON serializer", "Open Trivia API"],
         "description": "Created Java quiz game using swing GUI. Called Open Trivia Database API to get quiz questions and answers. It was my first time calling an API in Java and I had trouble with Jackson.",
         "difficulty": 2,
-        "link": ""
+        "link": "https://github.com/dtang123/Java-quiz-game"
     },
     {
         "name": "Cafe API",
@@ -51,6 +51,15 @@ export const projectData = [
         "frameworks": ["Flask", "SQLAlchemy", "REST API"],
         "description": "My first REST API. Not that hard from a coding standpoint",
         "difficulty": 1,
-        "link": ""
-    }
+        "link": "https://github.com/dtang123/Cafe-API"
+    },
+    {
+        "name": "Java Swing MarketPlace",
+        "type": "Java Project",
+        "mainLanguage": "Java",
+        "frameworks": ["Java Swing", "Java Threads", "Synchronization", "Java Sockets"],
+        "description": "Worked as a group to create a Java GUI marketplace. Allows multiple users to connect to the server through threading and implements a swing event dispatch thread to prevent thread interference. Also uses synchronization to prevent race conditions in the marketplace.",
+        "difficulty": 4,
+        "link": "https://github.com/dtang123/CS180project_5"
+    },
 ]
