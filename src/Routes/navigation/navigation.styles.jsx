@@ -10,7 +10,7 @@ export const NavigationContainer = styled.div `
   height: 100px;
   width: 100%;
   diplay: flex;
-  background-color: blue;
+  background-color: #6FB3B8;
   justify-content: space-between;
   align-items: center;
   margin: 0 0 20px 0;
@@ -18,8 +18,9 @@ export const NavigationContainer = styled.div `
   position: sticky;
   top: 0;
   z-index: 3;
+
   &:hover {
-    filter: brightness(300%);
+    height: scale(2);
   }
 `
 export const NavigationLink = styled(Link) `
@@ -38,7 +39,7 @@ export const NavLinkContainer = styled.div `
   .dropdown {
     overflow: hidden;
   }
-  `
+`
 
 export const TextContainer = styled(Link) `
   height: 80%;
@@ -50,6 +51,7 @@ export const TextContainer = styled(Link) `
   text-decoration: none;
   &:hover {
     border: solid;
+    border-color:
   }
 `
 
@@ -65,14 +67,15 @@ export const Blurb = styled.h5 `
   text-align: center;
   margin: 0;
 `
-export const FooterContainer = styled(NavigationContainer) `
+export const FooterContainer = styled.div `
   margin: 0;
+  background-color: #6FB3B8;
   display: flex;
   position: absolute:
   align-items: center;
   bottom: 0;
   width: 100%;
-  height: 6rem; 
+  height: 6rem;
 `
 export const SocialsLinkContainer = styled.div `
   margin: auto;
@@ -84,6 +87,7 @@ export const SocialsLinkContainer = styled.div `
 export const SocialsLink = styled.a `
   font-size: 3rem;
   margin-right: 30px;
+  color: white;
   &:hover {
     font-size: 3.5rem;
   }

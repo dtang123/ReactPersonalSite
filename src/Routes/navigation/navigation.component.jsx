@@ -20,28 +20,28 @@ const Navigation = () => {
 
   return (
     <Page>
-          <NavigationContainer>
-            <TextContainer to='/'>
-              <Name>David Tang</Name>
-              <Blurb>CS Student at Purdue</Blurb>
-            </TextContainer>
+        <NavigationContainer>
+          <TextContainer to='/'>
+            <Name>David Tang</Name>
+            <Blurb>CS Student at Purdue</Blurb>
+          </TextContainer>
 
-              { windowSize > 768 ?
-              <NavLinkContainer>
-                <NavigationLink to='/about'> About Me </NavigationLink>
-                <NavigationLink to='/projects'> Personal Projects </NavigationLink>
-                <NavigationLink to='/contact'> Contact Me </NavigationLink>
-              </NavLinkContainer>
-              :
-                <div style={{justifyContent: 'flex-end'}}>
-                  <DropdownButton title="Menu">
-                      <Dropdown.Item href="/about"> About Me </Dropdown.Item>
-                      <Dropdown.Item href="/projects"> Personal Projects </Dropdown.Item>
-                      <Dropdown.Item href="/contact"> Contact Me </Dropdown.Item>
-                  </DropdownButton>
-                </div>
-            }
-          </NavigationContainer>
+            { windowSize > 768 ?
+            <NavLinkContainer>
+              <NavigationLink to='/about'> About Me </NavigationLink>
+              <NavigationLink to='/projects'> Personal Projects </NavigationLink>
+              <NavigationLink to='/contact'> Contact Me </NavigationLink>
+            </NavLinkContainer>
+            :
+              <div style={{justifyContent: 'flex-end'}}>
+                <DropdownButton title="Menu">
+                    <Dropdown.Item href="/about"> About Me </Dropdown.Item>
+                    <Dropdown.Item href="/projects"> Personal Projects </Dropdown.Item>
+                    <Dropdown.Item href="/contact"> Contact Me </Dropdown.Item>
+                </DropdownButton>
+              </div>
+          }
+        </NavigationContainer>
         <Outlet />
         <FooterContainer>
           <SocialsLinkContainer>
@@ -56,7 +56,7 @@ const Navigation = () => {
               </SocialsLink>
             </SocialsLinkContainer>
         </FooterContainer>
-        
+
     </Page>
   )
 }

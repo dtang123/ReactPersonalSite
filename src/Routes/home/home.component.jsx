@@ -9,7 +9,7 @@ import { ReactComponent as BedImg } from '../../assets/bed-solid.svg'
 import { ReactComponent as RunImg } from '../../assets/person-running-solid.svg'
 import { ReactComponent as SportImg } from '../../assets/football-solid.svg'
 import { ReactComponent as PythonImg } from '../../assets/python-brands.svg'
-import { ReactComponent as ReactImg } from '../../assets/react-brands.svg' 
+import { ReactComponent as ReactImg } from '../../assets/react-brands.svg'
 import { ReactComponent as BraingImg } from '../../assets/brain-solid.svg'
 import { ReactComponent as GradientImg1 } from '../../assets/parabolic-ellipse.svg'
 import { ReactComponent as GradientImg2 } from '../../assets/bermuda-circle.svg'
@@ -26,7 +26,7 @@ const Home = () => {
             <Picture src={ProfilePic} alt="Picture of David"/>
           </Col>
           <Col md={{ offset: 1 }}>
-            <h1>Hello, my name is David</h1>
+            <h1>Hello, I'm David</h1>
             <h5>This is my personal site</h5>
           </Col>
         </Row>
