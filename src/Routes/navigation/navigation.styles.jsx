@@ -18,7 +18,6 @@ export const NavigationContainer = styled.div `
   position: sticky;
   top: 0;
   z-index: 3;
-
   &:hover {
     height: scale(2);
   }
@@ -28,6 +27,9 @@ export const NavigationLink = styled(Link) `
   cursor: pointer;
   text-decoration: none;
   color: white;
+  &:hover {
+    font-size: 1.5rem;
+  }
 `
 
 export const NavLinkContainer = styled.div `
@@ -38,6 +40,7 @@ export const NavLinkContainer = styled.div `
   margin: 0 20px 0 0;
   .dropdown {
     overflow: hidden;
+    align: right;
   }
 `
 

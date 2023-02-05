@@ -59,7 +59,7 @@ const Home = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
-              <Button className="more-button" variant="outline-info" href="/about">See More</Button>
+              <Button className="more-button" variant="info" href="/about">See More</Button>
             </Col>
             <Col md={{ span: 3 }} className="carousel-container">
               <h3>Skills</h3>
@@ -112,7 +112,7 @@ const Home = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
-              <Button className="more-button" variant="outline-info" href="/projects">See More</Button>
+              <Button className="more-button" variant="info" href="/projects">See More</Button>
             </Col>
           </Row>
         </Container>
